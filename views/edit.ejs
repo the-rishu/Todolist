@@ -1,0 +1,19 @@
+<div class="left">
+    <h1>Update Student Detail</h1>
+    <form method="post" action="/student/update/<%= data._id%>">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="<%= data.name %>">
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="text" name="age" id="age" value="<%= data.age %>">
+        </div>
+        <div>
+            <label for="fees">Fees</label>
+            <input type="text" name="fees" id="fees" value="<%= data.fees %>">
+        </div>
+        <button> Submit </button>
+        <button>Back</button>
+    </form>
+</div>
